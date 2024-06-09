@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    
+}
+header{
+    display: flex;
+    background: rgb(248, 248, 255) ;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0px;
+}
+.logo_container{
+
+    margin-left: 50px;
+    font-family: "DM Serif Text", serif;
+    font-size: 23px;
+    
+    
+}
+.nav_bar{
+ 
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+    margin-right: 4%;
+}
+.nav_bar a{
+
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    font-size: 18px;
+    font-family: "DM Serif Text", serif;
+}
+.nav_bar a:hover{
+
+    text-decoration: overline;
+    color: rgb(13, 79, 192);
+}
+.bgImgTxt{
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    /* font-family:"DM Serif Text", serif ; */
+    top:50%;
+    left: 70%;
+}
+.btn{
+
+    position: absolute;
+    top: 56%;
+    left: 77%;
+    margin: 5px 5px;
+    padding: 8px 8px;
+    border: 2px solid rgb(57, 100,195);
+    border-radius: 8px;
+    color: white;
+    background: rgb(57, 100,195);
+    cursor: pointer;
+}
+.btn:hover{
+
+    background: rgb(13, 79, 192);
+}
+
+.bgImg{
+
+    width: 80%;
+}
+.about{
+
+    position: absolute;
+    left: 48%;
+    font-family:"DM Serif Text", serif ;
+    font-size: 20px;
+    color: rgb(13, 79, 192 );
+    text-decoration: overline;
+}
+.abtTxt{
+
+    padding: 47px 48px;
+    margin: 20px 20px;
+    font-family:"DM Serif Text", serif;
+
+}
+.service{
+
+    position: absolute;
+    left: 48%;
+    font-family:"DM Serif Text", serif ;
+    font-size: 20px;
+    color: rgb(13, 79, 192);
+    text-decoration: overline;
+}
+.Sevtxt{
+
+    padding: 47px 48px;
+    margin: 20px 20px;
+    font-family:"DM Serif Text", serif;
+}
+.contact{
+    position: absolute;
+    left: 48%;
+    font-family:"DM Serif Text", serif ;
+    font-size: 20px;
+    color: rgb(13, 79, 192);
+    text-decoration: overline;
+
+}
+.ContTxt{
+    padding: 47px 48px;
+    margin: 20px 20px;
+    font-family:"DM Serif Text", serif;
+}
+.fot{
+
+    /* border: 2px solid black; */
+    border-top: 2px solid black;
+    padding: 58px 58px;
+    /* margin: 20px 20px; */
+   background: rgb(248, 244, 244);
+   color: rgb(13, 79, 192 );
+}
