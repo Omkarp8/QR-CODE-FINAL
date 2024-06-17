@@ -51,7 +51,7 @@ header{
     top:50%;
     left: 70%;
 }
-.btn{
+.btn a{
 
     position: absolute;
     top: 56%;
@@ -63,6 +63,7 @@ header{
     color: white;
     background: rgb(57, 100,195);
     cursor: pointer;
+    text-decoration: none;
 }
 .btn:hover{
 
@@ -113,17 +114,58 @@ header{
     text-decoration: overline;
 
 }
-.ContTxt{
-    padding: 47px 48px;
-    margin: 20px 20px;
-    font-family:"DM Serif Text", serif;
+
+.contactInfo{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 2px solid rgb(13, 79, 192);
+    border-bottom: 2px solid rgb(13, 79, 192 );
+    border-left: 2px solid rgb(248, 248, 255);
+    border-right: 2px solid rgb(248, 248, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 67px;
+   box-shadow: 5px 5px 5px;
 }
+.contactInside{
+
+    margin: 20px 20px;
+    padding: 20px 20px;
+
+    
+}
+.contactInside p{
+
+    margin-bottom: 20px;
+}
+
+
+.mapLiv{
+
+    margin: 3px 3px;
+    padding: 3px 15px;
+
+}
+
+.address{
+
+    font-size: 20px;
+   
+}
+
+
+
+
+
+
+
 .fot{
 
     /* border: 2px solid black; */
     border-top: 2px solid black;
     padding: 58px 58px;
     /* margin: 20px 20px; */
-   background: rgb(248, 244, 244);
-   color: rgb(13, 79, 192 );
+   background:#f8f8ff;
+   color:rgb(13, 79, 192);
 }
