@@ -1,0 +1,196 @@
+*{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;  
+}
+
+
+
+header{
+    display: flex;
+    background: rgb(248, 248, 255) ;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0px;
+}
+.logo_container{
+
+    margin-left: 50px;
+    font-family: "DM Serif Text", serif;
+    font-size: 23px;
+}
+.nav_bar{
+ 
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+    margin-right: 59%;
+}
+.nav_bar a{
+
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    font-size: 23px;
+    font-family:"DM Serif Text", serif;
+}
+.nav_bar a:hover{
+
+    text-decoration: underline;
+    color: rgb(13, 79, 192);
+}
+.newtxt{
+
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 30px;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, Arial, sans-serif ;
+    color: rgb(13, 79, 192);
+}
+.txt2{
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(120, 120, 120);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: center;
+    max-width: 900px;
+    margin-left: 21%;
+}
+.firstBox{
+
+    margin: 40px;
+    padding: 100px;
+    width: 40%;
+    height: 52%;
+    position: absolute;
+    left: 238px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+.insideTxt{
+
+    position: absolute;
+    top: 46px;
+    left: 109px;
+    font-size: 25px;
+    color: rgb(13, 79, 192);
+    
+}
+.input-box input{
+
+    font-family:cursive  ;
+    position: absolute;
+    left: 147px;
+    width: 45%;
+    height: 11%;
+    border: 2px solid rgb(13, 79, 192);
+    border-radius: 5px solid rgb(13, 79, 192);
+}
+.secondBox{
+
+    margin: 40px;
+    padding: 100px;
+    width: 29%;
+    height: 52%;
+    position: absolute;
+    right: 140px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    background-color:whitesmoke;
+    box-sizing: border-box;
+
+}
+.Btn-Sub{
+
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid rgb(13, 79, 192);
+    background-color: rgb(13, 79, 192);
+    color: aliceblue;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.Btn-Sub:hover{
+
+    background-color: rgb(36 103 217);
+}
+.secTxt{
+
+    position: absolute;
+    top: 46px;
+    left: 112px;
+    font-size: 25px;
+    color: rgb(13, 79, 192);
+}
+#qrImg{
+
+    margin: 20px 20px;
+    padding: 20px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+@media only screen and (max-width:1349px) {
+
+    .firstBox{
+
+        position: absolute;
+        left: 13%;
+        top: 25%;
+        
+    }
+    .secondBox{
+        position: absolute;
+        left: 56%;
+        width: 30%;
+    }
+
+    
+}
+@media only screen and (max-width:1238px) {
+
+    .firstBox{
+
+        position: absolute;
+        left: 11%;
+        top:25%;
+    }
+
+    
+}
+@media only screen and (max-width:1226px) {
+
+    .firstBox{
+
+        position: absolute;
+        left: 11%;
+        top:25%;
+    }
+    .secondBox{
+
+        position: absolute;
+        left: 53%;
+        top: 25%;
+        width: 34%;
+    }
+    
+}
+@media only screen and (max-width:1238px) {
+
+    .insideTxt{
+
+        position: absolute;
+        left: 66px;
+    }
+}

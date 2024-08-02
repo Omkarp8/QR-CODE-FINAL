@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="Htmlsheet" href="QRr.html">
+    <link rel="stylesheet" href="Qr2page.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo_container">ScanQR</div>
+        <nav class="nav_bar">
+            <a href="#">Generate</a>
+        </nav>
+    </header>
+    
+    <h1 class="newtxt">QR Code Generator - Create QR Codes for Free</h1>
+    <p class="txt2">
+        Generate QR Codes effortlessly with our intuitive interface.
+    </p>
+
+        <div class="firstBox">
+
+            <div class="insideTxt">Redirect to an existing web URL</div>
+            <div class="input-box">
+                <input type="text" placeholder="Enter Text or URL" id="qrTxt">
+                <button onclick="GenerateQR()" class="Btn-Sub">Generate QR Code</button>
+            
+            </div>
+       
+        </div>
+
+        <div class="secondBox">
+        <div class="secTxt">Create a QR Code</div>
+        <div class="img">
+            <img src="Image/QR.png" id="qrImg" alt="Qr Code">
+        </div>
+        </div>
+        <script src="Qr.js"></script>
+        
+</body>
+</html>
