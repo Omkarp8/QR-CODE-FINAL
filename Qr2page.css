@@ -1,14 +1,15 @@
-*{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;  
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #fff;
 }
 
 
 
-header{
+header {
     display: flex;
-    background: rgb(248, 248, 255) ;
+    background: rgb(248, 248, 255);
     justify-content: space-between;
     height: 40px;
     align-items: center;
@@ -16,43 +17,49 @@ header{
     position: sticky;
     top: 0px;
 }
-.logo_container{
+
+.logo_container {
 
     margin-left: 50px;
     font-family: "DM Serif Text", serif;
     font-size: 23px;
 }
-.nav_bar{
- 
+
+.nav_bar {
+
     display: flex;
     min-width: 500px;
     justify-content: space-between;
     margin-right: 59%;
 }
-.nav_bar a{
+
+.nav_bar a {
 
     text-decoration: none;
     color: black;
     padding: 20px 20px;
     font-size: 23px;
-    font-family:"DM Serif Text", serif;
+    font-family: "DM Serif Text", serif;
 }
-.nav_bar a:hover{
 
-    text-decoration: underline;
+.nav_bar a:hover {
+
+    text-decoration:overline;
     color: rgb(13, 79, 192);
 }
-.newtxt{
+
+.newtxt {
 
     padding: 20px 20px;
     display: flex;
     justify-content: center;
     margin: 30px 30px 30px;
     box-sizing: border-box;
-    font-family: Roboto, Helvetica, Arial, sans-serif ;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     color: rgb(13, 79, 192);
 }
-.txt2{
+
+.txt2 {
     box-sizing: border-box;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     color: rgb(120, 120, 120);
@@ -63,7 +70,8 @@ header{
     max-width: 900px;
     margin-left: 21%;
 }
-.firstBox{
+
+.firstBox {
 
     margin: 40px;
     padding: 100px;
@@ -71,23 +79,25 @@ header{
     height: 52%;
     position: absolute;
     left: 238px;
-    border: 2px solid whitesmoke;
+    border: 2px solid rgb(13, 79, 192);
     border-radius: 20px;
     background-color: whitesmoke;
     box-sizing: border-box;
 }
-.insideTxt{
+
+.insideTxt {
 
     position: absolute;
     top: 46px;
-    left: 109px;
+    left: 124px;
     font-size: 25px;
     color: rgb(13, 79, 192);
-    
-}
-.input-box input{
 
-    font-family:cursive  ;
+}
+
+.input-box input {
+
+    font-family: monospace;
     position: absolute;
     left: 147px;
     width: 45%;
@@ -95,7 +105,8 @@ header{
     border: 2px solid rgb(13, 79, 192);
     border-radius: 5px solid rgb(13, 79, 192);
 }
-.secondBox{
+
+.secondBox {
 
     margin: 40px;
     padding: 100px;
@@ -103,13 +114,14 @@ header{
     height: 52%;
     position: absolute;
     right: 140px;
-    border: 2px solid whitesmoke;
+    border: 2px solid rgb(13, 79, 192);
     border-radius: 20px;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     box-sizing: border-box;
 
 }
-.Btn-Sub{
+
+.Btn-Sub {
 
     position: absolute;
     top: 45%;
@@ -122,11 +134,13 @@ header{
     border-radius: 9px;
     cursor: pointer;
 }
-.Btn-Sub:hover{
+
+.Btn-Sub:hover {
 
     background-color: rgb(36 103 217);
 }
-.secTxt{
+
+.secTxt {
 
     position: absolute;
     top: 46px;
@@ -134,63 +148,201 @@ header{
     font-size: 25px;
     color: rgb(13, 79, 192);
 }
-#qrImg{
+
+#qrImg {
 
     margin: 20px 20px;
     padding: 20px 20px;
     border: 3px solid black;
     border-radius: 10px;
 }
+
 @media only screen and (max-width:1349px) {
 
-    .firstBox{
+    .firstBox {
 
         position: absolute;
         left: 13%;
         top: 25%;
-        
+
     }
-    .secondBox{
+
+    .secondBox {
         position: absolute;
         left: 56%;
-        width: 30%;
+        top: 25%;
+        width: 33%;
     }
 
-    
+
 }
+
 @media only screen and (max-width:1238px) {
 
-    .firstBox{
+    .firstBox {
 
         position: absolute;
         left: 11%;
-        top:25%;
+        top: 25%;
     }
 
-    
+
 }
+
 @media only screen and (max-width:1226px) {
 
-    .firstBox{
+    .firstBox {
 
         position: absolute;
         left: 11%;
-        top:25%;
+        top: 25%;
     }
-    .secondBox{
+
+    .secondBox {
 
         position: absolute;
         left: 53%;
         top: 25%;
         width: 34%;
     }
-    
+
 }
+
 @media only screen and (max-width:1238px) {
 
-    .insideTxt{
+    .insideTxt {
 
         position: absolute;
         left: 66px;
     }
 }
+@media only screen and (max-width:375px) {
+
+    .secondBox{
+
+        position: absolute;
+        top: 82%;
+        left: 12%;
+    }
+    .section3{
+
+    }
+}
+
+.dowbtn {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    border: 2px solid rgb(13, 79, 192);
+    border-radius: 8px;
+    background-color: rgb(13, 79, 192);
+}
+
+#forEmailButton{
+
+   
+    position: absolute;
+    top: 85%;
+    left: 20px;
+    cursor: pointer;
+    width: 14%;
+    height: 8%;
+    color: whitesmoke;
+    background-color: rgb(13, 79, 192);
+    border: 2px solid rgb(13, 79, 192);
+    border-radius: 4px;
+}
+#forGoogleMap{
+
+    position: absolute;
+    top: 85%;
+    left: 114px;
+    cursor: pointer;
+    width: 14%;
+    height: 8%;
+    color: whitesmoke;
+    background-color: rgb(13, 79, 192);
+    border: 2px solid rgb(13, 79, 192);
+    border-radius: 4px;
+    
+
+}
+#forInstagram{
+
+    position: absolute;
+    top: 85%;
+    left: 33%;
+    cursor: pointer;
+    width: 14%;
+    height: 8%;
+    color: whitesmoke;
+    background-color: rgb(13, 79, 192);
+    border: 2px solid rgb(13, 79, 192);
+    border-radius: 4px;
+    
+    
+}
+#forWhatsapp{
+
+    position: absolute;
+    top: 85%;
+    left: 48%;
+    cursor: pointer;
+    width: 14%;
+    height: 8%;
+    color: whitesmoke;
+    background-color: rgb(13, 79, 192);
+    border: 2px solid rgb(13, 79, 192);
+    border-radius: 4px;
+    
+    
+}
+#forTwitter{
+
+    position: absolute;
+    top: 85%;
+    left: 63%;
+    cursor: pointer;
+    width: 14%;
+    height: 8%;
+    color: whitesmoke;
+    background-color: rgb(13, 79, 192);
+    border: 2px solid rgb(13, 79, 192);
+    border-radius: 4px;
+    
+    
+}
+#forLinkedIn{
+    position: absolute;
+    top: 85%;
+    left: 78%;
+    cursor: pointer;
+    width: 14%;
+    height: 8%;
+    color: whitesmoke;
+    background-color: rgb(13, 79, 192);
+    border: 2px solid rgb(13, 79, 192);
+    border-radius: 4px;
+    
+    
+
+}
+.section3 {
+
+    position: absolute;
+   font-family: monospace;
+   font-size: large;
+    top: 88%;
+    left: 3%
+
+}
+/* .section3 h1{
+
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+} */

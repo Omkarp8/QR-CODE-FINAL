@@ -2,13 +2,14 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
-   
-    
+
+
+
 }
-header{
+
+header {
     display: flex;
-    background: rgb(248, 248, 255) ;
+    background: rgb(248, 248, 255);
     justify-content: space-between;
     height: 40px;
     align-items: center;
@@ -16,22 +17,25 @@ header{
     position: sticky;
     top: 0px;
 }
-.logo_container{
+
+.logo_container {
 
     margin-left: 50px;
     font-family: "DM Serif Text", serif;
     font-size: 23px;
-    
-    
+
+
 }
-.nav_bar{
- 
+
+.nav_bar {
+
     display: flex;
     min-width: 500px;
     justify-content: space-between;
     margin-right: 4%;
 }
-.nav_bar a{
+
+.nav_bar a {
 
     text-decoration: none;
     color: black;
@@ -39,128 +43,139 @@ header{
     font-size: 18px;
     font-family: "DM Serif Text", serif;
 }
-.nav_bar a:hover{
+
+.nav_bar a:hover {
 
     text-decoration: overline;
     color: rgb(13, 79, 192);
 }
-.bgImgTxt{
+
+.bgImgTxt {
     display: flex;
     position: absolute;
     box-sizing: border-box;
     /* font-family:"DM Serif Text", serif ; */
-    top:50%;
+    top: 50%;
     left: 70%;
 }
-.btn a{
+
+.btn a {
 
     position: absolute;
     top: 56%;
     left: 77%;
     margin: 5px 5px;
     padding: 8px 8px;
-    border: 2px solid rgb(57, 100,195);
+    border: 2px solid rgb(57, 100, 195);
     border-radius: 8px;
     color: white;
-    background: rgb(57, 100,195);
+    background: rgb(57, 100, 195);
     cursor: pointer;
     text-decoration: none;
 }
-.btn:hover{
+
+.btn:hover {
 
     background: rgb(13, 79, 192);
 }
 
-.bgImg{
+.bgImg {
 
     width: 80%;
 }
-.about{
+
+.about {
 
     position: absolute;
     left: 48%;
-    font-family:"DM Serif Text", serif ;
-    font-size: 20px;
-    color: rgb(13, 79, 192 );
-    text-decoration: overline;
-}
-.abtTxt{
-
-    padding: 47px 48px;
-    margin: 20px 20px;
-    font-family:"DM Serif Text", serif;
-
-}
-.service{
-
-    position: absolute;
-    left: 48%;
-    font-family:"DM Serif Text", serif ;
+    font-family: "DM Serif Text", serif;
     font-size: 20px;
     color: rgb(13, 79, 192);
     text-decoration: overline;
 }
-.Sevtxt{
+
+.abtTxt {
 
     padding: 47px 48px;
     margin: 20px 20px;
-    font-family:"DM Serif Text", serif;
+    font-family: "DM Serif Text", serif;
+
 }
-.contact{
+
+.service {
+
     position: absolute;
     left: 48%;
-    font-family:"DM Serif Text", serif ;
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+    color: rgb(13, 79, 192);
+    text-decoration: overline;
+}
+
+.Sevtxt {
+
+    padding: 47px 48px;
+    margin: 20px 20px;
+    font-family: "DM Serif Text", serif;
+}
+
+.contact {
+    position: absolute;
+    left: 48%;
+    font-family: "DM Serif Text", serif;
     font-size: 20px;
     color: rgb(13, 79, 192);
     text-decoration: overline;
 
 }
 
-.contactInfo{
+.contactInfo {
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
     border-top: 2px solid rgb(13, 79, 192);
-    border-bottom: 2px solid rgb(13, 79, 192 );
+    border-bottom: 2px solid rgb(13, 79, 192);
     border-left: 2px solid rgb(248, 248, 255);
     border-right: 2px solid rgb(248, 248, 255);
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 67px;
-   box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 5px;
 }
-.contactInside{
+
+.contactInside {
 
     margin: 20px 20px;
     padding: 20px 20px;
 
-    
+
 }
-.contactInside p{
+
+.contactInside p {
 
     margin-bottom: 20px;
 }
 
 
-.mapLiv{
+.mapLiv {
 
     margin: 3px 3px;
     padding: 3px 15px;
 
 }
 
-.address{
+.address {
 
     font-size: 20px;
-   
+
 }
 
-.fot{
+.fot {
 
     /* border: 2px solid black; */
     border-top: 2px solid black;
     padding: 58px 58px;
     /* margin: 20px 20px; */
-   background:#f8f8ff;
-   color:rgb(13, 79, 192);
+    background: #f8f8ff;
+    color: rgb(13, 79, 192);
 }

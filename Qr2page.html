@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="Htmlsheet" href="QRr.html">
     <link rel="stylesheet" href="Qr2page.css">
 </head>
+
 <body>
 
     <header>
@@ -18,11 +20,13 @@
             <a href="#">Generate</a>
         </nav>
     </header>
-    
+
     <h1 class="newtxt">QR Code Generator - Create QR Codes for Free</h1>
     <p class="txt2">
         Generate QR Codes effortlessly with our intuitive interface.
     </p>
+
+    <div class="section1">
 
         <div class="firstBox">
 
@@ -30,18 +34,51 @@
             <div class="input-box">
                 <input type="text" placeholder="Enter Text or URL" id="qrTxt">
                 <button onclick="GenerateQR()" class="Btn-Sub">Generate QR Code</button>
-            
+                <button id="forEmailButton">Email</button>
+                <button id="forGoogleMap">Map</button>
+                <button id="forInstagram">Instagram</button>
+                <button id="forWhatsapp">Whatsapp</button>
+                <button id="forTwitter">Twitter</button>
+                <button id="forLinkedIn">LinkedIn</button>
             </div>
-       
         </div>
+    </div>
+
+    <div class="section2">
 
         <div class="secondBox">
-        <div class="secTxt">Create a QR Code</div>
-        <div class="img">
-            <img src="Image/QR.png" id="qrImg" alt="Qr Code">
+            <div class="secTxt">Create a QR Code</div>
+            <div class="img">
+                <img src="Image/QR.png" id="qrImg" alt="Qr Code">
+
+            </div>
         </div>
-        </div>
-        <script src="Qr.js"></script>
-        
+    </div>
+
+    <div class="section3">
+        <h1>How to Generate a QR code for a link</h1>
+        <p>The URL QR code is an innovative tool that allows you to quickly and easily share links. Such interactive
+            code is actively used in different spheres. It is in great demand because it allows you to easily access any
+            web page without manually entering the URL in the browser. You only need to scan the QR code to follow the
+            encrypted link in seconds.</p>
+        <ul>
+            <li><h3>Basic explanation :</h3></li>
+                <li> A QR code can store a URL. When scanned, it directs the user to the linked website.</li>
+            <li><h3>Steps :</h3></li>
+                   <li> Input the desired URL.</li>
+                   <li>Choose desired QR code design elements (color, shape,logo).</li>
+                   <li>Generate and download the QR code.</li>
+                   <li>Example use cases : Website, blog, social media profile.</li>
+                   <li class="httpsLinks">How to Add URL : https://www.websiteName.com</li>
+            
+        </ul>
+
+    </div>
+
+
+
+    <script src="Qr.js"></script>
+
 </body>
+
 </html>
